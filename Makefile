@@ -33,7 +33,7 @@ cscope: ${SRC} config.h
 
 clean:
 	@echo cleaning
-	@rm -f sent ${OBJ} sent-${VERSION}.tar.gz
+	@rm -f sent ${OBJ} sent-${VERSION}.tar.gz config.h
 
 dist: clean
 	@echo creating dist tarball
